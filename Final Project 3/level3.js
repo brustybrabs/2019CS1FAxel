@@ -1,17 +1,6 @@
-function getRandomInt() {
-  return Math.floor(Math.random() * Math.floor(max));
-
-      var x= Math.floor(Math.random() * 1680)
-      var y= Math.floor(Math.random()* 850)
-
-      $('#button').css("top",y);
-      $('#button').css("left",x) );}
-      function getRandomInt() {
-  return Math.floor(Math.random() * Math.floor(max));
-
-      var x= Math.floor(Math.random() * 1680)
-      var y= Math.floor(Math.random()* 850)
-
-      $('#button').css("top",y);
-      $('#button').css("left",x) );}
-      
+function normalize(n) {
+  for(var x = 0, i = 0; i < n; i++){
+    x += Math.random("button");
+  }
+  return (x / n);
+}
