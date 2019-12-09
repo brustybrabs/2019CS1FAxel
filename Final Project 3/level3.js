@@ -1,4 +1,9 @@
-(function makeDiv(){
+var windowWidth = Math.floor((Math.random() * 10) + 1);
+var windowHeight = Math.floor((Math.random()*#)+#);
+
+console=log(windowWidth,windowHeight);
+
+function makeDiv(){
     
     var divsize = ((Math.random()*100) + 50).toFixed();
     var color = '#'+ Math.round(0xffffff * Math.random()).toString(16);
@@ -20,4 +25,4 @@
       $(this).remove();
       makeDiv(); 
     }); 
-})()
+}

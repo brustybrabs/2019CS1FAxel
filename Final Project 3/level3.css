@@ -1,5 +1,11 @@
 @CHARSET "UTF-8";
 
+
+html,body{
+    height:100%;
+    width:100%;
+}
+
 body{
      background-color:#b87d79;  
     }
@@ -55,8 +61,6 @@ body{
     height:17px;
     border-radius:10%;
     position:absolute;
-    top:400px;
-    left:50px;
     font-size:13px;
     background-color:white;
     text-align:center;
