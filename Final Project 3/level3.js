@@ -1,7 +1,10 @@
-var windowWidth = Math.floor((Math.random() * 10) + 1);
-var windowHeight = Math.floor((Math.random()*#)+#);
+var windowWidth = $(document).width();
+var randX = Math.floor((Math.random() * windowWidth) + 1);
 
-console=log(windowWidth,windowHeight);
+//var windowHeight = Math.floor((Math.random()*#)+#);
+
+//console=log(windowWidth,windowHeight);
+console.log(windowWidth);
 
 function makeDiv(){
     
