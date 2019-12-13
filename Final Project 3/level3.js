@@ -1,31 +1,26 @@
 var windowWidth = $(document).width();
-var randX = Math.floor((Math.random() * windowWidth) + 1);
+var randX = Math.floor((Math.random() * 1300) + 1);
+var windowHeight = $(document).height();
+var randY = Math.floor((Math.random()*1300)+1);
 
-//var windowHeight = Math.floor((Math.random()*#)+#);
-
-//console=log(windowWidth,windowHeight);
-console.log(windowWidth);
-
-function makeDiv(){
-    
-    var divsize = ((Math.random()*100) + 50).toFixed();
-    var color = '#'+ Math.round(0xffffff * Math.random()).toString(16);
-    $newdiv = $('button').css({
-        'width':divsize+'55px',
-        'height':divsize+'17px',
-        'background-color': color
-    });
-
-    var posx = (Math.random() * ($(document).width('500px') - divsize)).toFixed();
-    var posy = (Math.random() * ($(document).height('500px') - divsize)).toFixed();
-
-    $newdiv.css({
-        'position':'absolute',
-        'left':posx+'400px',
-        'top':posy+'50px',
-        'display':'none'
-    }).appendTo( 'body' ).fadeIn(100).delay(1000).fadeOut(500, function(){
-      $(this).remove();
-      makeDiv(); 
-    }); 
+function orderElems()
+{
+ var elems = [], tempElem, pn, args = orderElems.arguments;
+ 
+ for( var i = 0, len = args.length; i < len; i++ )
+  ( pn = ( elems[ i ] = tempElem = document.getElementById( args[ i ] ) ).parentNode).removeChild( tempElem );
+  
+ for( var i = len - 1, idx, tmp; i > -1; i-- )
+ { 
+  while( ( idx = Math.floor( Math.random() * len ) ) == i )
+  ;
+  tmp = elems[ i ];
+  elems[ i ] = elems[ idx ];
+  elems[ idx ] = tmp;
+ } 
+ 
+ for( var i = 0; i < len; i++ )
+  pn.appendChild( elems[ i ] );
 }
+
+orderElems( 'box1', 'box2', 'box3' );
