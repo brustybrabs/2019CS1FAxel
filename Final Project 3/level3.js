@@ -1,9 +1,15 @@
-var windowWidth = $(document).width();
-var randX = Math.floor((Math.random() * 1300) + 1); // multiply by windowWidth to make sure that you get a pixel within the windowWidth
-var windowHeight = $(document).height();
-var randY = Math.floor((Math.random()*1300)+1); // multiply by windowWidth to make sure that you get a pixel within the windowWidth
+var ScreenWidth = $(document).width();
 
-function orderElems(){ // let's talk about what this function is doing
+var X = Math.floor((Math.random() * ScreenWidth) + 1); 
+
+var ScreenHeight = $(document).height();
+
+var randY = Math.floor((Math.random()* ScreenHeight)+1); 
+
+$newdiv = $('button').css({
+    'white': color,})
+
+/*function orderElems(){ // let's talk about what this function is doing
  var elems = [], tempElem, pn, args = orderElems.arguments;
  
  for( var i = 0, len = args.length; i < len; i++ )
@@ -21,4 +27,4 @@ function orderElems(){ // let's talk about what this function is doing
   pn.appendChild( elems[ i ] );
 }
 
-orderElems( 'box1', 'box2', 'box3' );
+orderElems( 'box1', 'box2', 'box3' );*/
