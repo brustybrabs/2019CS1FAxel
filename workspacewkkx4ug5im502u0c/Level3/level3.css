@@ -1,0 +1,63 @@
+@CHARSET "UTF-8";
+
+body{
+     background-color:#b87d79;  
+    }
+    
+.box{
+    
+    width:150px;
+    height:150px;
+    position:relative;
+    top:200px;
+    left:550px;
+    display:inline-block;
+    
+    }
+    
+.box1{
+    
+     background: url('images.jpg') no-repeat center center;
+     background-color:red;
+    
+}
+
+.box2{
+    
+     background: url('download.jpg') no-repeat center center;
+     background-color:red;
+    
+}
+
+.box3{
+    
+     background: url('images.png') no-repeat center center;
+     background-color:red;
+    
+}
+
+.submit{
+    
+    width:60px;
+    height:19.5px;
+    position:relative;
+    font-size:15px;
+    background-color:white;
+    text-align:center;
+    display:inline-block;
+    
+
+}
+
+#button{
+    
+    width:60px;
+    height:19px;
+    position:absolute;
+    font-size:13px;
+    background-color:white;
+    text-align:center;
+    display:inline-block;
+    
+    
+}

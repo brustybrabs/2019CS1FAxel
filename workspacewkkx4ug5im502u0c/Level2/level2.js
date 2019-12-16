@@ -1,0 +1,10 @@
+$('.BOOM').click(
+    function(){
+        $(this).fadeOut();
+    }
+); 
+$('.big').click(
+    function(){
+        $(this).fadeOut();
+    }
+);
