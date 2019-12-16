@@ -1,17 +1,15 @@
 var windowWidth = $(document).width();
-var randX = Math.floor((Math.random() * 1300) + 1);
+var randX = Math.floor((Math.random() * 1300) + 1); // multiply by windowWidth to make sure that you get a pixel within the windowWidth
 var windowHeight = $(document).height();
-var randY = Math.floor((Math.random()*1300)+1);
+var randY = Math.floor((Math.random()*1300)+1); // multiply by windowWidth to make sure that you get a pixel within the windowWidth
 
-function orderElems()
-{
+function orderElems(){ // let's talk about what this function is doing
  var elems = [], tempElem, pn, args = orderElems.arguments;
  
  for( var i = 0, len = args.length; i < len; i++ )
   ( pn = ( elems[ i ] = tempElem = document.getElementById( args[ i ] ) ).parentNode).removeChild( tempElem );
   
- for( var i = len - 1, idx, tmp; i > -1; i-- )
- { 
+ for( var i = len - 1, idx, tmp; i > -1; i-- ){ 
   while( ( idx = Math.floor( Math.random() * len ) ) == i )
   ;
   tmp = elems[ i ];
