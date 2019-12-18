@@ -68,3 +68,13 @@ body{
     
     
 }
+
+
+/* added this style to test the randomBox */
+.randBox{
+    position: absolute;
+    width: 100px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 12px;
+}

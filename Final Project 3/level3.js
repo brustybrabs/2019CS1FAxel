@@ -1,13 +1,17 @@
-var ScreenWidth = $(document).width();
+var screenWidth = $(document).width();  //lower cased the variable name
 
-var X = Math.floor((Math.random() * ScreenWidth) + 1); 
+var randX = Math.floor((Math.random() * screenWidth) + 1); //changed it to randX for consitency
 
-var ScreenHeight = $(document).height();
+var screenHeight = $(document).height();
 
-var randY = Math.floor((Math.random()* ScreenHeight)+1); 
+var randY = Math.floor((Math.random()* screenHeight) + 1); 
 
-$newdiv = $('button').css({
-    'white': color,})
+/*$newdiv = $('button').css({
+    'white': color,})*/
+
+/* the code below adds one div to the webpage */
+
+$('body').append("<div class='randBox' style='top:" + randY + "px;left:" + randX + "px;'></div>")
 
 /*function orderElems(){ // let's talk about what this function is doing
  var elems = [], tempElem, pn, args = orderElems.arguments;
