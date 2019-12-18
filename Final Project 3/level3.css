@@ -55,26 +55,13 @@ body{
 
 }
 
-#button{
-    
-    width:55px;
-    height:17px;
-    border-radius:10%;
-    position:absolute;
-    font-size:13px;
-    background-color:white;
-    text-align:center;
-    display:inline-block;
-    
-    
-}
-
-
-/* added this style to test the randomBox */
 .randBox{
+
+    font-size:13px;
     position: absolute;
-    width: 100px;
-    height: 200px;
+    width: 55px;
+    height: 17px;
     background-color: #fff;
-    border-radius: 12px;
+    border-radius: 10%;
+    text-align:center;
 }
