@@ -7,16 +7,16 @@ html,body{
 }
 
 body{
-     background-color:#b87d79;  
+     background-color:#33b56b;  
     }
     
 .box{
     
-    width:150px;
-    height:150px;
+    width:350px;
+    height:350px;
     position:relative;
     top:200px;
-    left:550px;
+    left:520px;
     display:inline-block;
     
     }
@@ -58,10 +58,10 @@ body{
 
 .randBox{
 
-    font-size:13px;
+    font-size:14px;
     position: absolute;
     width: 55px;
-    height: 17px;
+    height: 18px;
     background-color: #fff;
     border-radius: 10%;
     text-align:center;
