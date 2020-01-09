@@ -46,32 +46,38 @@ body{
     
     width:60px;
     height:19.5px;
-    position:absolute;
     font-size:15px;
     background-color:rgb(247, 0, 255);
     text-align:center;
     border-radius: 10%;
     display:inline-block;
 
-    -webkit-animation-name: example; 
-    -webkit-animation-duration: 15s; 
-    animation-name: example;
-    animation-duration: 15s;
+position: relative;
+  -webkit-animation-name: box; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 30s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+  animation-name: box;
+  animation-duration: 30s;
+  animation-delay: 3s;
 }
 
-
-@-webkit-keyframes example {
-  from {background-color: rgb(247, 0, 255);}
-  to {background-color: rgb(189, 5, 164);}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes box {
+  0%   { left:0px; top:0px;}
+  25%  { left:400px; top:0px;}
+  50%  { left:400px; top:400px;}
+  75%  { left:0px; top:400px;}
+  100% { left:0px; top:0px;}
 }
 
-@keyframes example {
-  from {background-color: rgb(247, 0, 255);}
-  to {background-color: rgb(189, 5, 164);}
+/* Standard syntax */
+@keyframes box {
+  0%   { left:0px; top:0px;}
+  25%  { left:400px; top:0px;}
+  50%  { left:400px; top:400px;}
+  75%  { left:0px; top:400px;}
+  100% { left:0px; top:0px;}
 }
-
-
-
 
 .randBox{
 
