@@ -35,10 +35,10 @@ console.log(reverse("good"));*/
 message = "Hello, how are you?";
 console.log(noVowels(message));*/
  
-function everyOther(message){
+/*function everyOther(message){
     var everyOtherString = "";
 
-    for(var i=0; i<message.length; i+=3){
+    for(var i=0; i<message.length; i+=2){
         var fourthLetter = message.charAt(i);
             everyOtherString += fourthLetter;
     }
@@ -47,6 +47,17 @@ function everyOther(message){
  
 }
  
-message = "nicholas is a boy";
-console.log(everyOther(message));
+message = "I am going to work on my final project";
+console.log(everyOther(message));*/
 
+function everyOther(message,n){
+
+    var newMessage = "";
+    for(var foo = 0; foo<message.length; foo+=n){
+        newMessage += message.charAt(foo);
+    }
+    return newMessage;
+
+}
+
+console.log
