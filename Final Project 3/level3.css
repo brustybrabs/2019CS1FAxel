@@ -17,7 +17,6 @@ body{
     position:relative;
     top:200px;
     left:520px;
-    display:inline-block;
     
     }
     
@@ -50,7 +49,8 @@ body{
     background-color:rgb(247, 0, 255);
     text-align:center;
     border-radius: 10%;
-    display:inline-block;
+    display: inline-block;
+
 
 position: relative;
   -webkit-animation-name: box; /* Safari 4.0 - 8.0 */
@@ -58,26 +58,18 @@ position: relative;
   -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
   animation-name: box;
   animation-duration: 30s;
-  animation-delay: 3s;
+  animation-delay: 1s;
 }
 
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes box {
-  0%   { left:0px; top:0px;}
-  25%  { left:400px; top:0px;}
-  50%  { left:400px; top:400px;}
-  75%  { left:0px; top:400px;}
-  100% { left:0px; top:0px;}
-}
 
 /* Standard syntax */
-@keyframes box {
+/*@keyframes box {
   0%   { left:0px; top:0px;}
   25%  { left:400px; top:0px;}
   50%  { left:400px; top:400px;}
   75%  { left:0px; top:400px;}
   100% { left:0px; top:0px;}
-}
+}*/
 
 .randBox{
 
@@ -88,32 +80,15 @@ position: relative;
     border-radius: 10%;
     text-align:center;
 
-  position: relative;
+  position: absolute;
   -webkit-animation-name: box; /* Safari 4.0 - 8.0 */
   -webkit-animation-duration: 30s; /* Safari 4.0 - 8.0 */
   -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
   animation-name: box;
   animation-duration: 30s;
-  animation-delay: 3s;
+  animation-delay: 1s;
 }
 
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes box {
-  0%   { left:0px; top:0px;}
-  25%  { left:400px; top:0px;}
-  50%  { left:400px; top:400px;}
-  75%  { left:0px; top:400px;}
-  100% { left:0px; top:0px;}
-}
-
-/* Standard syntax */
-@keyframes box {
-  0%   { left:0px; top:0px;}
-  25%  { left:400px; top:0px;}
-  50%  { left:400px; top:400px;}
-  75%  { left:0px; top:400px;}
-  100% { left:0px; top:0px;}
-}
 
 
 

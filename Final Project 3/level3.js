@@ -1,18 +1,298 @@
 var screenWidth = $(document).width();  //lower cased the variable name
 var screenHeight = $(document).height();
 
-var randX = Math.floor((Math.random() * screenWidth) + 1); //changed it to randX for consitency
-var randY = Math.floor((Math.random()* screenHeight) + 1); 
-
 /*$newdiv = $('button').css({
     'white': color,})*/
 
 /* the code below adds one div to the webpage */
 
-$('body').append("<div class='randBox' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
+for(var i=0; i<screenHeight.length; i++){
+   
+}
 
 randX = Math.floor((Math.random() * screenWidth) + 1); //changed it to randX for consitency
 randY = Math.floor((Math.random()* screenHeight) + 1); 
+
+$('body').append("<div class='randBox' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
+
+
+
+/*$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
+
+randX = Math.floor((Math.random() * screenWidth) + 1);
+randY = Math.floor((Math.random() * screenWidth) + 1);
+
+$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
+
+randX = Math.floor((Math.random() * screenWidth) + 1); //changed it to randX for consitency
+randY = Math.floor((Math.random()* screenHeight) + 1); 
+
+$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
+
+randX = Math.floor((Math.random() * screenWidth) + 1);
+randY = Math.floor((Math.random() * screenWidth) + 1);
+
+$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
+
+randX = Math.floor((Math.random() * screenWidth) + 1); //changed it to randX for consitency
+randY = Math.floor((Math.random()* screenHeight) + 1); 
+
+$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
+
+randX = Math.floor((Math.random() * screenWidth) + 1);
+randY = Math.floor((Math.random() * screenWidth) + 1);
+
+$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
+
+randX = Math.floor((Math.random() * screenWidth) + 1); //changed it to randX for consitency
+randY = Math.floor((Math.random()* screenHeight) + 1); 
+
+$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
+
+randX = Math.floor((Math.random() * screenWidth) + 1);
+randY = Math.floor((Math.random() * screenWidth) + 1);
+
+$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
+
+randX = Math.floor((Math.random() * screenWidth) + 1); //changed it to randX for consitency
+randY = Math.floor((Math.random()* screenHeight) + 1); 
+
+$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
+
+randX = Math.floor((Math.random() * screenWidth) + 1);
+randY = Math.floor((Math.random() * screenWidth) + 1);
+
+$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
+
+randX = Math.floor((Math.random() * screenWidth) + 1); //changed it to randX for consitency
+randY = Math.floor((Math.random()* screenHeight) + 1); 
+
+$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
+
+randX = Math.floor((Math.random() * screenWidth) + 1);
+randY = Math.floor((Math.random() * screenWidth) + 1);
+
+$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
+
+randX = Math.floor((Math.random() * screenWidth) + 1); //changed it to randX for consitency
+randY = Math.floor((Math.random()* screenHeight) + 1); 
+
+$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
+
+randX = Math.floor((Math.random() * screenWidth) + 1);
+randY = Math.floor((Math.random() * screenWidth) + 1);
+
+$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
+
+randX = Math.floor((Math.random() * screenWidth) + 1); //changed it to randX for consitency
+randY = Math.floor((Math.random()* screenHeight) + 1); 
+
+$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
+
+randX = Math.floor((Math.random() * screenWidth) + 1);
+randY = Math.floor((Math.random() * screenWidth) + 1);
+
+$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
+
+randX = Math.floor((Math.random() * screenWidth) + 1); //changed it to randX for consitency
+randY = Math.floor((Math.random()* screenHeight) + 1); 
+
+$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
+
+randX = Math.floor((Math.random() * screenWidth) + 1);
+randY = Math.floor((Math.random() * screenWidth) + 1);
+
+$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
+
+randX = Math.floor((Math.random() * screenWidth) + 1); //changed it to randX for consitency
+randY = Math.floor((Math.random()* screenHeight) + 1); 
+
+$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
+
+randX = Math.floor((Math.random() * screenWidth) + 1);
+randY = Math.floor((Math.random() * screenWidth) + 1);
+
+$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
+
+randX = Math.floor((Math.random() * screenWidth) + 1); //changed it to randX for consitency
+randY = Math.floor((Math.random()* screenHeight) + 1); 
+
+$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
+
+randX = Math.floor((Math.random() * screenWidth) + 1);
+randY = Math.floor((Math.random() * screenWidth) + 1);
+
+$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
+
+randX = Math.floor((Math.random() * screenWidth) + 1); //changed it to randX for consitency
+randY = Math.floor((Math.random()* screenHeight) + 1); 
+
+$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
+
+randX = Math.floor((Math.random() * screenWidth) + 1);
+randY = Math.floor((Math.random() * screenWidth) + 1);
+
+$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
+
+randX = Math.floor((Math.random() * screenWidth) + 1); //changed it to randX for consitency
+randY = Math.floor((Math.random()* screenHeight) + 1); 
+
+$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
+
+randX = Math.floor((Math.random() * screenWidth) + 1);
+randY = Math.floor((Math.random() * screenWidth) + 1);
+
+$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
+
+randX = Math.floor((Math.random() * screenWidth) + 1); //changed it to randX for consitency
+randY = Math.floor((Math.random()* screenHeight) + 1); 
+
+$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
+
+randX = Math.floor((Math.random() * screenWidth) + 1);
+randY = Math.floor((Math.random() * screenWidth) + 1);
+
+$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
+
+randX = Math.floor((Math.random() * screenWidth) + 1); //changed it to randX for consitency
+randY = Math.floor((Math.random()* screenHeight) + 1); 
+
+$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
+
+randX = Math.floor((Math.random() * screenWidth) + 1);
+randY = Math.floor((Math.random() * screenWidth) + 1);
+
+$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
+
+randX = Math.floor((Math.random() * screenWidth) + 1); //changed it to randX for consitency
+randY = Math.floor((Math.random()* screenHeight) + 1); 
+
+$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
+
+randX = Math.floor((Math.random() * screenWidth) + 1);
+randY = Math.floor((Math.random() * screenWidth) + 1);
+
+$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
+
+randX = Math.floor((Math.random() * screenWidth) + 1); //changed it to randX for consitency
+randY = Math.floor((Math.random()* screenHeight) + 1); 
+
+$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
+
+randX = Math.floor((Math.random() * screenWidth) + 1);
+randY = Math.floor((Math.random() * screenWidth) + 1);
+
+$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
+
+randX = Math.floor((Math.random() * screenWidth) + 1); //changed it to randX for consitency
+randY = Math.floor((Math.random()* screenHeight) + 1); 
+
+$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
+
+randX = Math.floor((Math.random() * screenWidth) + 1);
+randY = Math.floor((Math.random() * screenWidth) + 1);
+
+$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
+
+randX = Math.floor((Math.random() * screenWidth) + 1); //changed it to randX for consitency
+randY = Math.floor((Math.random()* screenHeight) + 1); 
+
+$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
+
+randX = Math.floor((Math.random() * screenWidth) + 1);
+randY = Math.floor((Math.random() * screenWidth) + 1);
+
+$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
+
+randX = Math.floor((Math.random() * screenWidth) + 1); //changed it to randX for consitency
+randY = Math.floor((Math.random()* screenHeight) + 1); 
+
+$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
+
+randX = Math.floor((Math.random() * screenWidth) + 1);
+randY = Math.floor((Math.random() * screenWidth) + 1);
+
+$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
+
+randX = Math.floor((Math.random() * screenWidth) + 1); //changed it to randX for consitency
+randY = Math.floor((Math.random()* screenHeight) + 1); 
+
+$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
+
+randX = Math.floor((Math.random() * screenWidth) + 1);
+randY = Math.floor((Math.random() * screenWidth) + 1);
+
+$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
+
+randX = Math.floor((Math.random() * screenWidth) + 1); //changed it to randX for consitency
+randY = Math.floor((Math.random()* screenHeight) + 1); 
+
+$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
+
+randX = Math.floor((Math.random() * screenWidth) + 1);
+randY = Math.floor((Math.random() * screenWidth) + 1);
+
+$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
+
+randX = Math.floor((Math.random() * screenWidth) + 1); //changed it to randX for consitency
+randY = Math.floor((Math.random()* screenHeight) + 1); 
+
+$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
+
+randX = Math.floor((Math.random() * screenWidth) + 1);
+randY = Math.floor((Math.random() * screenWidth) + 1);
+
+$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
+
+randX = Math.floor((Math.random() * screenWidth) + 1); //changed it to randX for consitency
+randY = Math.floor((Math.random()* screenHeight) + 1); 
+
+$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
+
+randX = Math.floor((Math.random() * screenWidth) + 1);
+randY = Math.floor((Math.random() * screenWidth) + 1);
+
+$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
+
+randX = Math.floor((Math.random() * screenWidth) + 1); //changed it to randX for consitency
+randY = Math.floor((Math.random()* screenHeight) + 1); 
+
+$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
+
+randX = Math.floor((Math.random() * screenWidth) + 1);
+randY = Math.floor((Math.random() * screenWidth) + 1);
+
+$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
+
+randX = Math.floor((Math.random() * screenWidth) + 1); //changed it to randX for consitency
+randY = Math.floor((Math.random()* screenHeight) + 1); 
+
+$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
+
+randX = Math.floor((Math.random() * screenWidth) + 1);
+randY = Math.floor((Math.random() * screenWidth) + 1);
+
+$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
+
+randX = Math.floor((Math.random() * screenWidth) + 1); //changed it to randX for consitency
+randY = Math.floor((Math.random()* screenHeight) + 1); 
+
+$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
+
+randX = Math.floor((Math.random() * screenWidth) + 1);
+randY = Math.floor((Math.random() * screenWidth) + 1);
+
+$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
+
+randX = Math.floor((Math.random() * screenWidth) + 1); //changed it to randX for consitency
+randY = Math.floor((Math.random()* screenHeight) + 1); 
+
+$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
+
+randX = Math.floor((Math.random() * screenWidth) + 1);
+randY = Math.floor((Math.random() * screenWidth) + 1);
+
+$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")*/
 
 $('.randBox').click(
     function(){
@@ -22,283 +302,6 @@ $('.randBox').click(
       $('body').css('background-color','blue');
     }
 ); 
-
-$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
-
-randX = Math.floor((Math.random() * screenWidth) + 1);
-randY = Math.floor((Math.random() * screenWidth) + 1);
-
-$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
-
-randX = Math.floor((Math.random() * screenWidth) + 1); //changed it to randX for consitency
-randY = Math.floor((Math.random()* screenHeight) + 1); 
-
-$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
-
-randX = Math.floor((Math.random() * screenWidth) + 1);
-randY = Math.floor((Math.random() * screenWidth) + 1);
-
-$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
-
-randX = Math.floor((Math.random() * screenWidth) + 1); //changed it to randX for consitency
-randY = Math.floor((Math.random()* screenHeight) + 1); 
-
-$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
-
-randX = Math.floor((Math.random() * screenWidth) + 1);
-randY = Math.floor((Math.random() * screenWidth) + 1);
-
-$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
-
-randX = Math.floor((Math.random() * screenWidth) + 1); //changed it to randX for consitency
-randY = Math.floor((Math.random()* screenHeight) + 1); 
-
-$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
-
-randX = Math.floor((Math.random() * screenWidth) + 1);
-randY = Math.floor((Math.random() * screenWidth) + 1);
-
-$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
-
-randX = Math.floor((Math.random() * screenWidth) + 1); //changed it to randX for consitency
-randY = Math.floor((Math.random()* screenHeight) + 1); 
-
-$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
-
-randX = Math.floor((Math.random() * screenWidth) + 1);
-randY = Math.floor((Math.random() * screenWidth) + 1);
-
-$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
-
-randX = Math.floor((Math.random() * screenWidth) + 1); //changed it to randX for consitency
-randY = Math.floor((Math.random()* screenHeight) + 1); 
-
-$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
-
-randX = Math.floor((Math.random() * screenWidth) + 1);
-randY = Math.floor((Math.random() * screenWidth) + 1);
-
-$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
-
-randX = Math.floor((Math.random() * screenWidth) + 1); //changed it to randX for consitency
-randY = Math.floor((Math.random()* screenHeight) + 1); 
-
-$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
-
-randX = Math.floor((Math.random() * screenWidth) + 1);
-randY = Math.floor((Math.random() * screenWidth) + 1);
-
-$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
-
-randX = Math.floor((Math.random() * screenWidth) + 1); //changed it to randX for consitency
-randY = Math.floor((Math.random()* screenHeight) + 1); 
-
-$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
-
-randX = Math.floor((Math.random() * screenWidth) + 1);
-randY = Math.floor((Math.random() * screenWidth) + 1);
-
-$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
-
-randX = Math.floor((Math.random() * screenWidth) + 1); //changed it to randX for consitency
-randY = Math.floor((Math.random()* screenHeight) + 1); 
-
-$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
-
-randX = Math.floor((Math.random() * screenWidth) + 1);
-randY = Math.floor((Math.random() * screenWidth) + 1);
-
-$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
-
-randX = Math.floor((Math.random() * screenWidth) + 1); //changed it to randX for consitency
-randY = Math.floor((Math.random()* screenHeight) + 1); 
-
-$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
-
-randX = Math.floor((Math.random() * screenWidth) + 1);
-randY = Math.floor((Math.random() * screenWidth) + 1);
-
-$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
-
-randX = Math.floor((Math.random() * screenWidth) + 1); //changed it to randX for consitency
-randY = Math.floor((Math.random()* screenHeight) + 1); 
-
-$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
-
-randX = Math.floor((Math.random() * screenWidth) + 1);
-randY = Math.floor((Math.random() * screenWidth) + 1);
-
-$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
-
-randX = Math.floor((Math.random() * screenWidth) + 1); //changed it to randX for consitency
-randY = Math.floor((Math.random()* screenHeight) + 1); 
-
-$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
-
-randX = Math.floor((Math.random() * screenWidth) + 1);
-randY = Math.floor((Math.random() * screenWidth) + 1);
-
-$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
-
-randX = Math.floor((Math.random() * screenWidth) + 1); //changed it to randX for consitency
-randY = Math.floor((Math.random()* screenHeight) + 1); 
-
-$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
-
-randX = Math.floor((Math.random() * screenWidth) + 1);
-randY = Math.floor((Math.random() * screenWidth) + 1);
-
-$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
-
-randX = Math.floor((Math.random() * screenWidth) + 1); //changed it to randX for consitency
-randY = Math.floor((Math.random()* screenHeight) + 1); 
-
-$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
-
-randX = Math.floor((Math.random() * screenWidth) + 1);
-randY = Math.floor((Math.random() * screenWidth) + 1);
-
-$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
-
-randX = Math.floor((Math.random() * screenWidth) + 1); //changed it to randX for consitency
-randY = Math.floor((Math.random()* screenHeight) + 1); 
-
-$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
-
-randX = Math.floor((Math.random() * screenWidth) + 1);
-randY = Math.floor((Math.random() * screenWidth) + 1);
-
-$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
-
-randX = Math.floor((Math.random() * screenWidth) + 1); //changed it to randX for consitency
-randY = Math.floor((Math.random()* screenHeight) + 1); 
-
-$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
-
-randX = Math.floor((Math.random() * screenWidth) + 1);
-randY = Math.floor((Math.random() * screenWidth) + 1);
-
-$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
-
-randX = Math.floor((Math.random() * screenWidth) + 1); //changed it to randX for consitency
-randY = Math.floor((Math.random()* screenHeight) + 1); 
-
-$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
-
-randX = Math.floor((Math.random() * screenWidth) + 1);
-randY = Math.floor((Math.random() * screenWidth) + 1);
-
-$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
-
-randX = Math.floor((Math.random() * screenWidth) + 1); //changed it to randX for consitency
-randY = Math.floor((Math.random()* screenHeight) + 1); 
-
-$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
-
-randX = Math.floor((Math.random() * screenWidth) + 1);
-randY = Math.floor((Math.random() * screenWidth) + 1);
-
-$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
-
-randX = Math.floor((Math.random() * screenWidth) + 1); //changed it to randX for consitency
-randY = Math.floor((Math.random()* screenHeight) + 1); 
-
-$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
-
-randX = Math.floor((Math.random() * screenWidth) + 1);
-randY = Math.floor((Math.random() * screenWidth) + 1);
-
-$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
-
-randX = Math.floor((Math.random() * screenWidth) + 1); //changed it to randX for consitency
-randY = Math.floor((Math.random()* screenHeight) + 1); 
-
-$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
-
-randX = Math.floor((Math.random() * screenWidth) + 1);
-randY = Math.floor((Math.random() * screenWidth) + 1);
-
-$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
-
-randX = Math.floor((Math.random() * screenWidth) + 1); //changed it to randX for consitency
-randY = Math.floor((Math.random()* screenHeight) + 1); 
-
-$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
-
-randX = Math.floor((Math.random() * screenWidth) + 1);
-randY = Math.floor((Math.random() * screenWidth) + 1);
-
-$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
-
-randX = Math.floor((Math.random() * screenWidth) + 1); //changed it to randX for consitency
-randY = Math.floor((Math.random()* screenHeight) + 1); 
-
-$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
-
-randX = Math.floor((Math.random() * screenWidth) + 1);
-randY = Math.floor((Math.random() * screenWidth) + 1);
-
-$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
-
-randX = Math.floor((Math.random() * screenWidth) + 1); //changed it to randX for consitency
-randY = Math.floor((Math.random()* screenHeight) + 1); 
-
-$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
-
-randX = Math.floor((Math.random() * screenWidth) + 1);
-randY = Math.floor((Math.random() * screenWidth) + 1);
-
-$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
-
-randX = Math.floor((Math.random() * screenWidth) + 1); //changed it to randX for consitency
-randY = Math.floor((Math.random()* screenHeight) + 1); 
-
-$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
-
-randX = Math.floor((Math.random() * screenWidth) + 1);
-randY = Math.floor((Math.random() * screenWidth) + 1);
-
-$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
-
-randX = Math.floor((Math.random() * screenWidth) + 1); //changed it to randX for consitency
-randY = Math.floor((Math.random()* screenHeight) + 1); 
-
-$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
-
-randX = Math.floor((Math.random() * screenWidth) + 1);
-randY = Math.floor((Math.random() * screenWidth) + 1);
-
-$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
-
-randX = Math.floor((Math.random() * screenWidth) + 1); //changed it to randX for consitency
-randY = Math.floor((Math.random()* screenHeight) + 1); 
-
-$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
-
-randX = Math.floor((Math.random() * screenWidth) + 1);
-randY = Math.floor((Math.random() * screenWidth) + 1);
-
-$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
-
-randX = Math.floor((Math.random() * screenWidth) + 1); //changed it to randX for consitency
-randY = Math.floor((Math.random()* screenHeight) + 1); 
-
-$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
-
-randX = Math.floor((Math.random() * screenWidth) + 1);
-randY = Math.floor((Math.random() * screenWidth) + 1);
-
-$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
-
-randX = Math.floor((Math.random() * screenWidth) + 1); //changed it to randX for consitency
-randY = Math.floor((Math.random()* screenHeight) + 1); 
-
-$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
-
-randX = Math.floor((Math.random() * screenWidth) + 1);
-randY = Math.floor((Math.random() * screenWidth) + 1);
-
-$('body').append("<div class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
 
 
 
