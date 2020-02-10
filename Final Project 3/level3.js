@@ -6,14 +6,39 @@ var screenHeight = $(document).height();
 
 /* the code below adds one div to the webpage */
 
-for(var i=0; i<screenHeight.length; i++){
+/*for(var i=0; i<screenHeight.length; i++){
    
+}*/
+
+
+
+var randX = Math.floor((Math.random() * screenWidth) + 1); //changed it to randX for consitency
+var randY = Math.floor((Math.random()* screenHeight) + 1); 
+//TweenMax.to(??,1.2,{x:400,y:200,ease:Sine.easeOut});
+
+$('body').append("<div id='correct' class='randBox' style='top:" + randY + "px;left:" + randX + "px;'>click</div>");
+
+
+
+for(var i=0;i<100;i++){
+
+    var randX = Math.floor((Math.random() * screenWidth) + 1);
+    var randY = Math.floor((Math.random()* screenHeight) + 1);
+
+    $('body').append("<div id='box;' class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>");
+
 }
 
-randX = Math.floor((Math.random() * screenWidth) + 1); //changed it to randX for consitency
-randY = Math.floor((Math.random()* screenHeight) + 1); 
+    var total=0;
+    box.each(
+        function(){
+            selected=box
+            if(selected==box){
+                total++
+            }
+        }
+    )
 
-$('body').append("<div class='randBox' style='top:" + randY + "px;left:" + randX + "px;'>click</div>")
 
 
 

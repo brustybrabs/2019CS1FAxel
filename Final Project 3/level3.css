@@ -52,7 +52,7 @@ body{
     display: inline-block;
 
 
-position: relative;
+position: absolute;
   -webkit-animation-name: box; /* Safari 4.0 - 8.0 */
   -webkit-animation-duration: 30s; /* Safari 4.0 - 8.0 */
   -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
