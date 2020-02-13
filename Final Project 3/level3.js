@@ -20,15 +20,23 @@ $('body').append("<div id='correct' class='randBox' style='top:" + randY + "px;l
 
 
 
-for(var i=0;i<100;i++){
+for(var i=0;i<2;i++){
 
     var randX = Math.floor((Math.random() * screenWidth) + 1);
     var randY = Math.floor((Math.random()* screenHeight) + 1);
+    var i='.submit';
 
     $('body').append("<div id='box"+i+"' class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>");
-    /*TweenMax.to(i,1.2,{x:400,y:200,ease:Sine.easeOut});*/
     
+    TweenMax.to(i, 1.2,{x:400,y:200,delay:1,ease:Sine.easeOut});
+
+
+    /*TweenMax.to('i',1.2,{x:520, delay:.15, ease:Sine.easeOut});
+    TweenMax.to("#car2",1,{rotation:-90, delay:1, ease:Sine.easeOut});*/
+
+
 };
+
 
    
 $('.randBox').click(
