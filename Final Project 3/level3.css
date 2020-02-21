@@ -25,12 +25,12 @@ body{
     
     @-webkit-keyframes mymove {
     from {left: 0px;}
-    to {left: 1500px;}
+    to {left: 500px;}
     }
 
     @keyframes mymove {
     from {left: 0px;}
-    to {left: 2000px;}
+    to {left: 500px;}
     }
     
 .box1{
