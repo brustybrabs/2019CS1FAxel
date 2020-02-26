@@ -7,7 +7,7 @@ html,body{
 }
 
 body{
-     background-color:#004f55;  
+     background-color:#000303;  
     }
     
 .box{
@@ -24,14 +24,14 @@ body{
     }
     
     @-webkit-keyframes mymove {
-    from {left: 0px;}
-    to {left: 500px;}
+    from{left:0px;}
+    to {left:2000px}
     }
 
-    @keyframes mymove {
+    /*@keyframes mymove {
     from {left: 0px;}
     to {left: 500px;}
-    }
+    }*/
     
 .box1{
     
@@ -56,11 +56,12 @@ body{
 
 .submit{
     
-    width:60px;
-    height:19.5px;
+    width:80px;
+    height:34px;
     font-size:15px;
     background-color:rgb(247, 0, 255);
     text-align:center;
+    line-height:200%;
     border-radius: 10%;
     display: inline-block;
     position: absolute; }
@@ -85,11 +86,12 @@ body{
 .randBox{
 
     font-size:14px;
-    width: 55px;
-    height: 16px;
+    width: 80px;
+    height: 33px;
     background-color: rgb(184, 44, 189);
     border-radius: 10%;
     text-align:center;
+    line-height:200%;
     position: absolute;
 
   /*-webkit-animation-name: box; 
@@ -116,4 +118,21 @@ body{
   from {background-color: rgb(189, 5, 164);}
   to {background-color: rgb(35, 180, 216);}
 
+}*/
+
+
+.inner2{
+    
+    text-align:center;
+    color:rgb(206, 231, 60);
+    font-size:40px;
+    position:relative;
+    left:0px;
+    top:-1000px;
+    width:400px;
+    height:400px;
+    font-family: "Kranky";
+    
 }
+    
+    

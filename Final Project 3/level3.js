@@ -18,14 +18,16 @@ var randY = Math.floor((Math.random()* screenHeight) + 1);
 
 $('body').append("<div id='correct' class='randBox' style='top:" + randY + "px;left:" + randX + "px;'>click</div>");
 
+TweenMax.to(".randBox", 5, {x:6000, y:3000, delay:1, ease:Sine.easeOut})
 
 
-for(var i=0;i<100;i++){
+
+for(var i=0;i<50;i++){
 
     var randX = ((Math.random() * screenWidth) + 1);
     var randY = ((Math.random()* screenHeight) + 1);
     var currID = "box"+i;
-    var delay = ((Math.random()*2)+1);
+    var delay = ((Math.random()*1)+1);
     var delay2 = ((Math.random()*4)+1);
     var delay3= ((Math.random()*6)+1);
     var delay4= ((Math.random()*8)+1);
@@ -35,11 +37,11 @@ for(var i=0;i<100;i++){
 
     $('body').append("<div id='"+currID+"' class='submit' style='top:" + randY + "px;left:" + randX + "px;'>click</div>");
     
-    TweenMax.to("#"+currID, 2,{x:400, y:200, delay:delay, ease:Sine.easeOut});
-    TweenMax.to("#"+currID, 2, {x:400, y:600, delay:delay2, ease:Sine.easeOut});
-    TweenMax.to("#"+currID, 2, {x:-100, y:-200, delay:delay3, ease:Sine.easeOut});
-    TweenMax.to("#"+currID, 2, {x:300, y:400, delay:delay4, ease:Sine.easeOut});
-    TweenMax.to("#"+currID, 2, {x:-600, y:600, delay:delay5, ease:Sine.easeOut});
+    TweenMax.to("#"+currID, 3,{x:400, y:200, delay:delay, ease:Sine.easeOut, repeat:-1});
+    TweenMax.to("#"+currID, 3, {x:400, y:600, delay:delay2, ease:Sine.easeOut, repeat:-1});
+    TweenMax.to("#"+currID, 3, {x:-100, y:-200, delay:delay3, ease:Sine.easeOut, repeat:-1});
+    TweenMax.to("#"+currID, 3, {x:300, y:400, delay:delay4, ease:Sine.easeOut, repeat:-1});
+    TweenMax.to("#"+currID, 3, {x:-600, y:600, delay:delay5, ease:Sine.easeOut, repeat:-1});
 
 
     /*TweenMax.to('i',1.2,{x:520, delay:.15, ease:Sine.easeOut});
