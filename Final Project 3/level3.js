@@ -54,11 +54,11 @@ for(var i=0;i<50;i++){
    
 $('.randBox').click(
      function(){
-      var color= $(this).css('background-color', 'red');
+      var color= $(this).css('background-color', '#b81132');
       console.log(color);
-      $('body').css('background-color','blue');var color= $(this).css('background-color', 'red');
+      $('body').css('background-color','#076117');var color= $(this).css('background-color', '#b81132');
       console.log(color);
-      $('body').css('background-color','blue');
+      $('body').css('background-color','#076117');
       alert("You Win!");
     
     }
