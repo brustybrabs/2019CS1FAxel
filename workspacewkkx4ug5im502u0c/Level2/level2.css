@@ -9,7 +9,7 @@ body{
     
 .big{
     
-   width:380px;
+   width:370px;
    height:80px;
    background-color:#3b0b0f;
    position:absolute;
@@ -20,13 +20,14 @@ body{
 .knock{
     
     text-align:center;
+    line-height:2;
     color:Red;
     font-weight:bold;
     overflow:hidden;
     font-size:50px;
     position:absolute;
     left:350px;
-    top:200px;
+    top:130px;
     width:50px;
     height:50px;
     font-family: "Kranky";
@@ -46,10 +47,10 @@ body{
 
 #text{
     
-    background:url('arrow-png.jpg') no-repeat center center;
-    background-size:50px;
-    background-position-x:350px; 
-    background-position-y:20px;
+    background:url('arrow.png') no-repeat center center;
+    background-size:90px;
+    background-position-x:300px; 
+    background-position-y:10px;
     text-align:center;
     color:rgb(5, 99, 187);
     font-weight:bold;
@@ -68,7 +69,7 @@ body{
     
     position:absolute;
     left:160px;
-    top:200px;
+    top:130px;
 }
 
 .ball{
@@ -80,5 +81,18 @@ body{
 }
 
 #signs{
-    background-color: blue
+    background-color: blue;
+    left:700px;
+    top:200px;
+    text-align:center;
+    line-height:6;
+    border-radius:10px;
 }
+
+#bext{
+    
+    background:url('1.png') no-repeat center center;
+    background-size:90px;
+    background-position-x:300px; 
+    background-position-y:10px;
+    display:inline-block
