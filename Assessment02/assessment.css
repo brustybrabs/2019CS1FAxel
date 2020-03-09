@@ -1,0 +1,195 @@
+@CHARSET "UTF-8";
+
+
+html,body{
+    height:100%;
+    width:100%;
+}
+
+body{
+     background-color:#000303;  
+    }
+    
+.box{
+
+    width:140px;
+    height:70px;
+    border-radius:10px;
+    display:inline-block;
+
+
+}
+
+.orange{
+
+    background-color:orange;
+    font-family: "Kranky";
+
+}
+
+.purple{
+
+    background-color:rgb(153, 0, 255);
+
+}
+
+.red{
+
+    background-color:rgb(138, 11, 11);
+
+}
+
+
+.bar{
+
+    width:865px;
+    height:30px;
+    border-radius:10px;
+    background-color:blue;
+    text-align:right;
+    line-height:1;
+    color:rgb(0, 208, 255);
+    font-weight:bold;
+    overflow:hidden;
+    font-size:30px;
+    
+
+}
+
+.text{
+
+    text-align:center;
+    line-height:1.5;
+    color:black;
+    font-weight:bold;
+    overflow:hidden;
+    font-size:50px;
+    
+
+}
+
+
+/*.box{
+    
+    width:350px;
+    height:350px;
+    position:relative;
+    top:200px;
+    left:520px;
+    font-weight: bold;
+    -webkit-animation: mymove 10s infinite;
+    animation: mymove 10s infinite;
+    
+    }
+    
+    @-webkit-keyframes mymove {
+    from{left:0px;}
+    to {left:2000px}
+    }
+
+    /*@keyframes mymove {
+    from {left: 0px;}
+    to {left: 500px;}
+    }*/
+    
+/*.box1{
+    
+     background: url('images.jpg') no-repeat center center;
+     background-color:darkblue;
+    
+}
+
+.box2{
+    
+     background: url('download.jpg') no-repeat center center;
+     background-color:darkred;
+    
+}
+
+.box3{
+    
+     background: url('images.png') no-repeat center center;
+     background-color:darkblue;
+    
+}
+
+.submit{
+    
+    width:80px;
+    height:34px;
+    font-size:15px;
+    background-color:rgb(247, 0, 255);
+    text-align:center;
+    line-height:200%;
+    border-radius: 10%;
+    display: inline-block;
+    position: absolute; }
+  
+  
+  /*-webkit-animation-name: box; 
+  -webkit-animation-duration: 30s; 
+  -webkit-animation-delay: 2s; 
+  animation-name: box;
+  animation-duration: 30s;
+  animation-delay: 1s;
+}/*
+
+/*@keyframes box {
+  0%   { left:0px; top:0px;}
+  25%  { left:400px; top:0px;}
+  50%  { left:400px; top:400px;}
+  75%  { left:0px; top:400px;}
+  100% { left:0px; top:0px;}
+}*/
+
+/*.randBox{
+
+    font-size:14px;
+    width: 80px;
+    height: 33px;
+    background-color: rgb(184, 44, 189);
+    border-radius: 10%;
+    text-align:center;
+    line-height:200%;
+    position: absolute;
+
+  /*-webkit-animation-name: box; 
+  -webkit-animation-duration: 30s;
+  -webkit-animation-delay: 2s; 
+  animation-name: box;
+  animation-duration: 30s;
+  animation-delay: 1s;*/
+
+}
+
+/*-webkit-animation-name: example; 
+    -webkit-animation-duration: 10s; 
+    animation-name: example;
+    animation-duration: 10s;
+}
+
+@-webkit-keyframes example {
+  from {background-color: rgb(189, 5, 164);}
+  to {background-color: rgb(35, 180, 216);}
+}
+
+@keyframes example {
+  from {background-color: rgb(189, 5, 164);}
+  to {background-color: rgb(35, 180, 216);}
+
+}*/
+
+
+/*.inner2{
+    
+    text-align:center;
+    color:rgb(206, 231, 60);
+    font-size:40px;
+    position:relative;
+    left:0px;
+    top:-1000px;
+    width:400px;
+    height:400px;
+    font-family: "Kranky";
+    
+}
